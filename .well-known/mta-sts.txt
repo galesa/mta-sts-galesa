@@ -1,6 +1,4 @@
 version: STSv1
-mode: enforce                               # 1. Decide your mode.
-mx: galesa-com.mail.protection.outlook.com. # 2. Add your primary mailserver hostname (see MX records in your DNS)
-max_age: 86400                              # 3. Depending on your mode above, 1209600 seconds = 2 weeks might be a good value.
-                                            #    In case all servers share the same subdomain, you may also use wildcards like *.mail.protection.outlook.com
-                                            # 4. Remove all the comments (if that wasn't obvious to you).
+mode: enforce                              
+mx: galesa-com.mail.protection.outlook.com. 
+max_age: 86400
